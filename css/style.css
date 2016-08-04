@@ -1,0 +1,44 @@
+html, body {
+  margin: 0;
+}
+
+section {
+  border: solid red 1px;
+}
+
+#nav-area {
+  height: 100px;
+  background-image: url(../images/bgl1.png);
+}
+
+#navbar {
+  margin: 0 auto 0 auto;
+  width: 900px;
+  height: 100%;
+}
+
+#logo > img {
+  width: 5%;
+  float: left;
+  margin-top: 18px;
+  margin-left: 10px;
+}
+
+#navitems {
+  float: right;
+  width: auto: ;
+}
+
+.navitem {
+  display: inline;
+  float: left;
+  margin-left: 40px;
+  margin-top: 50px;
+}
+
+#top-image {
+  height: 500px;
+  background-image: url("../images/top-image.jpg");
+  border: solid black 1px;
+  padding: 0 auto 0 auto;
+}
