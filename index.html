@@ -5,69 +5,75 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <link rel="stylesheet" href="css/style.css">
+  <link href='https://fonts.googleapis.com/css?family=Montserrat' rel='stylesheet' type='text/css'>
   <title>My Portfolio Page</title>
 </head>
 <body>
   <section id="nav-area">
     <div id="navbar">
       <div id="logo">
-        <img src="images/logo.png" alt="Logo">
+        <a href="">
+          <img src="images/logo.png" alt="Logo">
+        </a>
       </div>
       <div id="navitems">
-        <div class="navitem">PORTFOLIO</div>
-        <div class="navitem">INFO</div>
+        <div class="navitem"><a href="">PORTFOLIO</a></div>
+        <div class="navitem"><a href="">INFO</a></div>
+        <div class="navitem"><a href="">PRICING</a></div>
       </div>
     </div>
   </section>
   <section id="content-container">
     <div id="top-image">
-      <h1>
-        DIGITAL
-        <br>
-        CRAFTSMAN
-      </h1>
+      <h1 id="h1-top">DIGITAL</h1>
+      <br>
+      <h1 id="h1-bottom">CRAFTSMAN</h1>
     </div>
-      <div id="projects">
-        <h4>Feature Projects</h4>
-        <div class="project-content"></div>
-        <div class="project-content"></div>
-        <div class="project-content"></div>
-      </div>
-      <div id="services">
-        <h4>Services</h4>
-        <div class="service-container">
-          <div class="service-container image"></div>
-          <h4 class="service-text">BRANDING</h4>
-          <p class="service-description">
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
-            eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+    <div id="middle">
+        <div id="projects">
+          <h2>Feature Projects</h2>
+          <div class="project-content">
+            <img src="images/project-image1.jpg" alt="img1">
+            <img src="images/project-image2.jpg" alt="img2">
+            <img src="images/project-image3.jpg" alt="img3">
+          </div>
         </div>
-        <div class="service-container">
-          <div class="service-container image"></div>
-          <h4 class="service-text">WEB / DIGITAL</h4>
-          <p class="service-description">
-            Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris
-            nisi ut aliquip ex ea commodo consequat.
-          </p>
+        <div id="services">
+          <h2>Services</h2>
+          <div class="service-container">
+            <img src="images/svc1.png" alt="Service Image 1">
+            <h3 class="service-text">BRANDING</h3>
+            <p class="service-description">
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
+              eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+          </div>
+          <div class="service-container">
+            <img src="images/sv2.png" alt="Service Image 2">
+            <h3 class="service-text">WEB / DIGITAL</h3>
+            <p class="service-description">
+              Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris
+              nisi ut aliquip ex ea commodo consequat.
+            </p>
+          </div>
+          <div class="service-container">
+            <img src="images/svc3.png" alt="Service Image 3">
+            <h3 class="service-text">PRINT DESIGN</h3>
+            <p class="service-description">
+              Excepteur sint occaecat cupidatat non proident, sunt in culpa qui
+              officia deserunt mollit anim id est laborum.
+            </p>
+          </div>
         </div>
-        <div class="service-container">
-          <div class="service-container image"></div>
-          <h4 class="service-text">PRINT DESIGN</h4>
-          <p class="service-description">
-            Excepteur sint occaecat cupidatat non proident, sunt in culpa qui
-            officia deserunt mollit anim id est laborum.
-          </p>
-        </div>
-      </div>
+    </div>
   </section>
   <section id="footer-container">
     <p id="copyright">&copy;	Tim Chen 2016</p>
     <div id="social-container">
-      <div><a href="">facebook</a></div>
-      <div><a href="">twitter</a></div>
-      <div><a href="">instagram</a></div>
-      <div><a href="">tumblr</a></div>
-      <div><a href="">linkedin</a></div>
+      <div><a href="">facebook |</a></div>
+      <div><a href="">twitter |</a></div>
+      <div><a href="">instagram |</a></div>
+      <div><a href="">tumblr |</a></div>
+      <div><a href="">linkedin </a></div>
     </div>
   </section>
 </body>
