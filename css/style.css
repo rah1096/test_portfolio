@@ -43,6 +43,7 @@ h2,h3,.navitem {
 #navitems {
   float: right;
   width: auto;
+  margin-top: 0;
 }
 
 .navitem {
@@ -163,5 +164,85 @@ h2,h3,.navitem {
 }
 
 #middle > #fproject {
-  padding-bottom: 30px;
+  margin-top: 20px;
+  margin-bottom: 70px;
+}
+
+#middle > #pimage {
+  width: 900px;
+  display: block;
+  margin: auto;
+}
+
+#allprojects {
+  margin-top: 70px;
+  margin-bottom: 50px;
+}
+
+#projects-container {
+  width: 900px;
+  margin: 0 auto 0 auto;
+  padding-bottom: 60px;
+}
+
+#projects-container > img {
+  width: 33%;
+}
+
+#about-content {
+  width: 900px;
+  margin: 0 auto 0 auto;
+}
+
+#about-content > p {
+  text-align: justify;
+  margin: 0 0 50px 0;
+  font-family: 'Courier', sans-serif;
+}
+
+#about-content {
+  column-count: 2;
+  column-gap: 50px;
+}
+
+#inquiry {
+  margin-top: 50px;
+}
+
+#inquiry-form {
+  width: 900px;
+  margin: 50px auto 0 auto;
+  padding-bottom: 50px;
+}
+
+input {
+  width: 900px;
+  text-align: center;
+}
+
+.reg-input {
+  height: 30px;
+  margin-bottom: 10px;
+}
+
+#your-message {
+  height: 300px;
+  margin-bottom: 10px;
+}
+
+button {
+  width: 900px;
+  margin: 0 auto 0 auto;
+  height: 30px;
+  background-color: grey;
+  color: white;
+}
+
+table {
+  margin: 0 auto 0 auto;
+  border: solid white 2px;
+}
+
+tr {
+  border: solid white 2px;
 }
