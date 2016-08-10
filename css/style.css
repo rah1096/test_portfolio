@@ -175,6 +175,10 @@ h2,h3,.navitem {
   margin: auto;
 }
 
+#middle > table {
+  padding-bottom: 60px;
+}
+
 #allprojects {
   margin-top: 70px;
   margin-bottom: 50px;
