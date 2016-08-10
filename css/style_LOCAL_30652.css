@@ -43,7 +43,6 @@ h2,h3,.navitem {
 #navitems {
   float: right;
   width: auto;
-  margin-top: 0;
 }
 
 .navitem {
@@ -237,14 +236,3 @@ button {
   background-color: grey;
   color: white;
 }
-
-
-table {
-  margin: 0 auto 0 auto;
-  border: solid white 2px;
-}
-
-tr {
-  border: solid white 2px;
-}
-
